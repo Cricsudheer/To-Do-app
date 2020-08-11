@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <a href="/">Home</a>
+    <a href = "/about">About</a>
+    <h3>welcome here</h3>
+    <table>
+      <tr>
+    <th> Name</th>
+    <th>Quanity</th>
+    <th>Supplier 1 </th>
+    <th>Supplier 2</th>
+  </tr>
+   <% for (var i=0; i<posts.length; i++){ %>
+     <tr>
+       <td><%= posts[i].name %></td>
+       <td><%= posts[i].quantity %></td>
+       <td>Name :<%= posts[i].suppliers[0].name%> | address: <%= posts[i].suppliers[0].address%>   </td>
+       <td>Name :<%= posts[i].suppliers[1].name%> | address: <%= posts[i].suppliers[1].address%>   </td>
+
+
+     </tr>
+   <% } %>
+ <table>
+
+  </body>
+</html>
