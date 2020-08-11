@@ -12,10 +12,3 @@ ___________________________
 
 _____________________________
 
-For project pros  and cons  visit http://localhost:3000/about/
-
-Please let me know if u want  some modifications in the project i can work them out  within the allowed given deadline.
-
-Thanking you
-
--_______Sudheer Ranjan
